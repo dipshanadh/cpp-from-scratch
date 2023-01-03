@@ -1,4 +1,4 @@
-// Program to accept the number of rows & print the number pattern
+// Program to accept the number of num & print the number pattern
 
 #include <iostream>
 
@@ -8,15 +8,15 @@ using std::endl;
 
 int main()
 {
-    int rows;
+    int num;
 
     cout << "Enter the number of rows:\t";
-    cin >> rows;
+    cin >> num;
 
-    for (int i = 1; i <= rows; i++)
+    for (int i = 1; i <= num; i++)
     {
 
-        for (int j = 1; j <= rows - i; j++)
+        for (int j = 1; j <= num - i; j++)
             cout << " ";
 
         for (int j = 1; j <= i; j++)
