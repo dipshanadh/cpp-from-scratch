@@ -9,7 +9,7 @@ using std::endl;
 
 int main()
 {
-    int n, key;
+    int n;
 
     cout << "Enter the size of the array:\t";
     cin >> n;
