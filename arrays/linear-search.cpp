@@ -1,4 +1,4 @@
-// Program to input an array of numbers and search for a key
+// Program to input an array of numbers & a key and search for the entered key
 
 #include <iostream>
 #include <cstdio>
