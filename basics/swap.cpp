@@ -20,7 +20,7 @@ int main()
     b = a - b;
     a = a - b;
 
-    cout << "After swapping first number:" << endl;
+    cout << "\nAfter swapping," << endl;
     cout << "First number:\t" << a << endl;
     cout << "Second number:\t" << b << endl;
 
