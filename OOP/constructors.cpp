@@ -13,7 +13,14 @@ class Room {
         float height;
 
     public:
-        // Parameterized constructor to initialize variables
+        // Default constructor
+        Room() {
+            length = 0;
+            breadth = 0;
+            height = 0;
+        }
+
+        // Parameterized constructor 
         Room(float l, float b, float h) {
             length = l;
             breadth = b;
@@ -36,7 +43,7 @@ int main() {
     int N;
 
     Room room1(12, 10, 9);
-    Room room2(10, 12, 10);
+    Room room2;
 
     cout << "Average area:\t" << getAvgArea(room1, room2) << endl;
     cout << "Average volume:\t" << getAvgVolume(room1, room2) << endl;
